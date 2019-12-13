@@ -1,8 +1,8 @@
-# Plot.ly Homework - Belly Button Biodiversity
+# Plotly: Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Instructions/Images/bacteria_by_filterforgedotcom.jpg)
 
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
+The goal for this project is to build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
 ## Step 1 - Plotly.js
 
@@ -16,7 +16,7 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   * Use `otu_labels` as the hovertext for the chart.
 
-  ![PIE Chart](Images/pie_chart.png)
+  ![PIE Chart](Instructions/Images/pie_chart.png)
 
 * Create a Bubble Chart that uses data from your samples route (`/samples/<sample>`) to display each sample.
 
@@ -71,7 +71,7 @@ Use Flask API to serve the data needed for your plots.
 
 - - -
 
-## Hints
+## Tips
 
 * Don't forget to `pip install -r requirements.txt` before you start your server.
 
