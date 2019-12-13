@@ -24,7 +24,7 @@ function buildMetadata(sample) {
         });
 
         // BONUS: Build the Gauge Chart
-        // buildGauge(sampleData.WFREQ)
+        buildGauge(sampleData.WFREQ);
     });
 }
 
@@ -64,7 +64,6 @@ function buildCharts(sample) {
           };
         
         Plotly.newPlot("bubble", bubble_data, bubble_layout);
-    
         
         // Build a Pie Chart
         // Use slice() to grab the top 10 sample_values,
