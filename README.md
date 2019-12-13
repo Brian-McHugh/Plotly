@@ -1,6 +1,6 @@
 # Plotly: Belly Button Biodiversity
 
-![Bacteria by filterforge.com](Instructions/Images/bacteria_by_filterforgedotcom.jpg)
+![Microbial Species Spectrum](Instructions/Images/bacteria_by_filterforgedotcom.jpg)
 
 The goal for this project is to build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
