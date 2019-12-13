@@ -20,6 +20,7 @@ function buildMetadata(sample) {
         // Use `Object.entries` to add each key and value pair to the panel
         Object.entries(sampleData).forEach(([key, value]) => {
             metaData.append("p").text(`${key}: ${value}`);
+            console.log(`${key}: ${value}`);
         });
 
         // BONUS: Build the Gauge Chart
@@ -32,7 +33,14 @@ function buildCharts(sample) {
     // Use `d3.json` to fetch the sample data for the plots
     url = `/samples/${sample}`;
 
+    // Show the url in the console
+    console.log(url);
+
     d3.json(url).then(sampleData => {
+
+        // View the sample in the console
+        console.log(sampleData);
+
         // Build a Bubble Chart using the sample data
         const bubble_trace = {
             x: sampleData.otu_ids,
