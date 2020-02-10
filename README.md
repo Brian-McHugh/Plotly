@@ -1,6 +1,6 @@
 # Plotly: Belly Button Biodiversity
 
-![Microbial Species Spectrum](Instructions/Images/belly_button_biodiversity.jpg)
+![Microbial Species Spectrum](Belly_Button_Diversity/images/belly_button_biodiversity.jpg)
 
 The goal for this project is to build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
@@ -16,7 +16,7 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   * Use `otu_labels` as the hovertext for the chart.
 
-  ![PIE Chart](Instructions/Images/pie_chart.png)
+  ![PIE Chart](Belly_Button_Diversity/images/pie_chart.png)
 
 * Create a Bubble Chart that uses data from your samples route (`/samples/<sample>`) to display each sample.
 
@@ -30,7 +30,7 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   * Use `otu_labels` for the text values.
 
-  ![Bubble Chart](Instructions/Images/bubble_chart.png)
+  ![Bubble Chart](Belly_Button_Diversity/images/bubble_chart.png)
 
 * Display the sample metadata from the route `/metadata/<sample>`
 
@@ -40,8 +40,8 @@ Use Plotly.js to build interactive charts for your dashboard.
 
 * You are welcome to create any layout that you would like for your dashboard. An example dashboard page might look something like the following.
 
-![Example Dashboard Page](Instructions/Images/dashboard_part1.png)
-![Example Dashboard Page](Instructions/Images/dashboard_part2.png)
+![Example Dashboard Page](Belly_Button_Diversity/images/dashboard_part1.png)
+![Example Dashboard Page](Belly_Button_Diversity/images/dashboard_part2.png)
 
 ## Step 2 - Heroku
 
@@ -59,7 +59,7 @@ The following task is completely optional and is very advanced.
 
 * Update the chart whenever a new sample is selected.
 
-![Weekly Washing Frequency Gauge](Instructions/Images/gauge.png)
+![Weekly Washing Frequency Gauge](Belly_Button_Diversity/images/gauge.png)
 
 - - -
 
