@@ -38,10 +38,6 @@ Use Plotly.js to build interactive charts for your dashboard.
 
 * Update all of the plots any time that a new sample is selected.
 
-* You are welcome to create any layout that you would like for your dashboard. An example dashboard page might look something like the following.
-
-![Example Dashboard Page](Belly_Button_Diversity/images/dashboard_part1.png)
-![Example Dashboard Page](Belly_Button_Diversity/images/dashboard_part2.png)
 
 ## Step 2 - Heroku
 
